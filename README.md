@@ -89,7 +89,7 @@ DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=your_mysql_password
 DB_NAME=user_profile_manager
-PORT=5000
+PORT=3001
 NODE_ENV=development
 ```
 
@@ -112,7 +112,7 @@ This uses `concurrently` to start both servers simultaneously:
 | Server | URL | Description |
 |--------|-----|-------------|
 | **Frontend** | http://localhost:5173 | React application |
-| **Backend** | http://localhost:5000/api | REST API |
+| **Backend** | http://localhost:3001/api | REST API |
 
 Open **http://localhost:5173** in your browser and you're good to go! 🎉
 
@@ -246,9 +246,3 @@ user-profile-manager/
 2. **Pagination** — Server-side pagination for the users table as the dataset grows
 3. **Edit & Delete** — Full CRUD operations with confirmation modals for delete
 4. **Authentication** — JWT-based auth to protect admin routes
-5. **Docker Setup** — Docker Compose for MySQL + backend + frontend for one-command deployment
-6. **Rate Limiting** — Express rate limiter on POST endpoint to prevent abuse
-7. **E2E Tests** — Cypress or Playwright for full end-to-end workflow testing
-8. **Input Sanitization** — Additional XSS protection with DOMPurify on the frontend
-9. **Error Boundary** — React error boundary for graceful failure handling
-10. **Accessibility Audit** — Full WCAG 2.1 compliance check
