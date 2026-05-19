@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+client/dist/
+client/dist-ssr/
+
+# Environment (keep .env.example, ignore actual .env)
+.env
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Coverage
+coverage/
+
+# Lock files (optional — remove these lines if you want to commit lock files)
+# package-lock.json
