@@ -1,10 +1,8 @@
 # Dependencies
 node_modules/
 
-# Build outputs
-user-profile-manager-client/dist/
-user-profile-manager-client/dist-ssr/
-user-profile-manager-server/dist/
+# Build output
+dist/
 
 # Environment (keep .env.example, ignore actual .env)
 .env
@@ -35,8 +33,3 @@ lerna-debug.log*
 
 # Coverage
 coverage/
-
-# Old project (kept for reference)
-old/node_modules/
-old/client/node_modules/
-old/server/node_modules/
